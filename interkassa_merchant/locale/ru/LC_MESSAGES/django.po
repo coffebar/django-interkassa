@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-02 14:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: interkassa_merchant/__init__.py:11
+msgid "Interkassa Merchant"
+msgstr "Interkassa Мерчант"
+
+#: interkassa_merchant/models.py:11
+msgid "User"
+msgstr "Пользователь"
+
+#: interkassa_merchant/models.py:12 interkassa_merchant/models.py:70
+msgid "Created on"
+msgstr "Дата создания"
+
+#: interkassa_merchant/models.py:13
+msgid "Payment on"
+msgstr "Номер платежа"
+
+#: interkassa_merchant/models.py:14
+msgid "Payment Info"
+msgstr "Информация о платеже"
+
+#: interkassa_merchant/models.py:15 interkassa_merchant/models.py:72
+msgid "Amount"
+msgstr "Сумма"
+
+#: interkassa_merchant/models.py:18
+msgid "invoice"
+msgstr "инвойс"
+
+#: interkassa_merchant/models.py:19
+msgid "invoices"
+msgstr "инвойсы"
+
+#: interkassa_merchant/models.py:30
+msgid "is payed"
+msgstr "оплачен"
+
+#: interkassa_merchant/models.py:31 interkassa_merchant/models.py:79
+msgid "payment"
+msgstr "платеж"
+
+#: interkassa_merchant/models.py:64
+#, python-format
+msgid "%(payment_no)s/%(created_on)s (for: %(user)s)"
+msgstr "%(payment_no)s/%(created_on)s (для: %(user)s)"
+
+#: interkassa_merchant/models.py:71
+msgid "Invoice"
+msgstr "Инвойс"
+
+#: interkassa_merchant/models.py:73
+msgid "Payment no"
+msgstr "Номер платежа"
+
+#: interkassa_merchant/models.py:74
+msgid "Payway Via"
+msgstr ""
+
+#: interkassa_merchant/models.py:75
+msgid "Currency"
+msgstr ""
+
+#: interkassa_merchant/models.py:76
+msgid "Invoice Processed"
+msgstr ""
+
+#: interkassa_merchant/models.py:80
+msgid "payments"
+msgstr "платежи"
+
+#: interkassa_merchant/models.py:83
+#, python-format
+msgid "%(payment_no)s - %(amount)s"
+msgstr ""
+
+#: interkassa_merchant/templates/interkassa_merchant/fail.html:2
+msgid "Payment was not completed."
+msgstr ""
+
+#: interkassa_merchant/templates/interkassa_merchant/success.html:2
+msgid "Your payment successfully completed."
+msgstr ""
+
+#: interkassa_merchant/templates/interkassa_merchant/wait.html:2
+msgid "Your payment is still processing."
+msgstr ""
